@@ -5,10 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon dist/index.js",
+    "server": "nodemon dist/index.js",
     "types": "tsc --watch"
   },
-  "author": "motilin",
+  "author": "Amauri",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.1",

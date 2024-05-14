@@ -1,0 +1,34 @@
+/* You can add global styles to this file, and also import other style files */
+html,body{
+    height: 100%;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0c0741;
+    height: 100%;
+}
+.title{
+    color: #fff;
+    font-size: 50px;
+}
+.logo{
+    height: 130px;
+    margin-bottom: 10px;
+}
+
+.body{
+    max-width: 300px;
+    width: 100%;
+    text-align: center;
+    border: 2px black;
+}
+ .mt-3{
+    color: #fff;
+ }
+ .container-fluid{
+    background-color: rgb(235, 235, 235);
+    height: 50px;
+ }

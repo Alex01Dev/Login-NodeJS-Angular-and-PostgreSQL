@@ -1,0 +1,25 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0c0741;
+    height: 100%;
+}
+.title{
+    color: #fff;
+    font-size: 76px;
+}
+.logo{
+    height: 130px;
+    margin-bottom: 10px;
+}
+
+.body{
+    max-width: 300px;
+    width: 100%;
+    text-align: center;
+    border: 2px black;
+}
+ .mt-3{
+    color: #fff;
+ }

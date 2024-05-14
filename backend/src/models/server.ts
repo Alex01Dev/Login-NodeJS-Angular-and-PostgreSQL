@@ -10,7 +10,7 @@ class Server {
 
     constructor() {
         this.app = express(); //orden en el que se ejecutan
-        this.port = process.env.PORT || '3000';
+        this.port = process.env.PORT || '3001';
         this.app.listen();
         this.middlewares(); //middleware de ir antes de routes o no hará el parseo para podr leer json
         this.routes();
@@ -37,9 +37,10 @@ class Server {
         try { 
             await Product.sync();
             await User.sync();
-            console.log('Conexión exitosa');
+            console.log('-----Conexión exitosa-----');
         } catch (error) {
-            console.log('Error en la conexión');
+            console.log('xxxxxxxxx NO CONEXION xxxxxxxxxx');
+            
         }
     }
 }
