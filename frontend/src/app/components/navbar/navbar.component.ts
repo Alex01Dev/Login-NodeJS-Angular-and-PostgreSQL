@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { RouterModule } from '@angular/router';
+import { Router, RouterModule } from '@angular/router';
 import { LoginComponent } from '../login/login.component';
 
 @Component({
@@ -11,4 +11,12 @@ import { LoginComponent } from '../login/login.component';
 })
 export class NavbarComponent {
 
+  constructor(private router: Router){}
+
+
+  logOut(){
+    localStorage.removeItem('token')
+    this.router.navigate(['/login'])
+
+  }
 }

@@ -1,17 +1,19 @@
 import { ApplicationConfig } from '@angular/core';
-import { HTTP_INTERCEPTORS } from '@angular/common/http';
+import { HTTP_INTERCEPTORS, withInterceptors } from '@angular/common/http';
 import { provideRouter } from '@angular/router';
 import { routes } from './app.routes';
 import { provideClientHydration } from '@angular/platform-browser';
 import { provideAnimations } from '@angular/platform-browser/animations';
 import { provideToastr } from 'ngx-toastr';
 import { provideHttpClient } from '@angular/common/http';
-import { AddTokenInterceptor } from './utils/add-token.interceptor';
+import { addTokenInterceptor } from './utils/add-token.interceptor';
+
 
 export const appConfig: ApplicationConfig = {
   providers: [
     // Interceptor HTTP para agregar token de autorización
-    { provide: HTTP_INTERCEPTORS, useClass: AddTokenInterceptor, multi: true },
+    provideHttpClient(
+      withInterceptors([addTokenInterceptor])),
 
     // Proveedor de enrutamiento
     provideRouter(routes),

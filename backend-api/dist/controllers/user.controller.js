@@ -52,29 +52,33 @@ const newUser = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
 exports.newUser = newUser;
 const loginUser = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     const { username, password } = req.body;
-    //Validar usuario si existe en la bd
-    const user = yield user_modell_1.User.findOne({
-        where: {
-            username: username //SELECT * FROM tbb_name WHERE username = username (sustitución con el findOne)
+    try {
+        // Validar si el usuario existe en la base de datos
+        const user = yield user_modell_1.User.findOne({
+            where: { username }
+        });
+        if (!user) {
+            return res.status(400).json({
+                msg: `El usuario ${username} no existe`
+            });
         }
-    });
-    if (!user) {
-        return res.status(400).json({
-            msg: `Usuario ${username} no existente en la BD`
-        });
+        // Validar la contraseña
+        const isPasswordValid = yield bcrypt_1.default.compare(password, user.password);
+        if (!isPasswordValid) {
+            return res.status(400).json({
+                msg: "Error en la contraseña"
+            });
+        }
+        // Generar token JWT
+        const token = jsonwebtoken_1.default.sign({
+            username: user.username // Puedes agregar más información al token si es necesario
+        }, process.env.SECRET_KEY || 'lolsito');
+        // Devolver el token JWT al cliente
+        res.json(token);
     }
-    //Validar su password
-    const passValid = yield bcrypt_1.default.compare(password, user.password);
-    if (!passValid) {
-        return res.status(400).json({
-            msg: "Error en la clave"
-        });
+    catch (error) {
+        console.error("Error al autenticar usuario:", error);
+        res.status(500).json({ msg: "Error interno del servidor" });
     }
-    //Generar token
-    //NUNCA poner información sensible en el token porque se puede decodificar y vulnerar la información
-    const token = jsonwebtoken_1.default.sign({
-        username: username
-    }, process.env.SECRET_KEY || 'lolsito');
-    res.json({ token });
 });
 exports.loginUser = loginUser;

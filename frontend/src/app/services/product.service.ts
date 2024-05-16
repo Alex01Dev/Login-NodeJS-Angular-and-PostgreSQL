@@ -3,7 +3,6 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { Product } from '../interfaces/product';
 import { Token } from '@angular/compiler';
-import { AddTokenInterceptor } from '../utils/add-token.interceptor';
 
 @Injectable({
   providedIn: 'root'

@@ -47,37 +47,38 @@ export const newUser = async (req: Request, res:Response) => {
 }
 
 
-export const loginUser = async (req: Request, res:Response) => {
+export const loginUser = async (req: Request, res: Response) => {
+    const { username, password } = req.body;
 
-    const { username, password  } = req.body;
+    try {
+        // Validar si el usuario existe en la base de datos
+        const user: any = await User.findOne({
+            where: { username }
+        });
 
-    //Validar usuario si existe en la bd
-    const user: any = await User.findOne({
-        where: {
-            username: username //SELECT * FROM tbb_name WHERE username = username (sustitución con el findOne)
+        if (!user) {
+            return res.status(400).json({
+                msg: `El usuario ${username} no existe`
+            });
         }
-    });
 
-    if(!user) {
-        return res.status(400).json({
-            msg: `Usuario ${username} no existente en la BD`
-        });
+        // Validar la contraseña
+        const isPasswordValid = await bcrypt.compare(password, user.password);
+        if (!isPasswordValid) {
+            return res.status(400).json({
+                msg: "Error en la contraseña"
+            });
+        }
+
+        // Generar token JWT
+        const token = jwt.sign({
+            username: user.username // Puedes agregar más información al token si es necesario
+        }, process.env.SECRET_KEY || 'lolsito');
+
+        // Devolver el token JWT al cliente
+        res.json( token );
+    } catch (error) {
+        console.error("Error al autenticar usuario:", error);
+        res.status(500).json({ msg: "Error interno del servidor" });
     }
-
-    //Validar su password
-    const passValid = await bcrypt.compare(password, user.password)
-    if(!passValid) {
-        return res.status(400).json({
-            msg: "Error en la clave"
-        });
-    }
-
-    //Generar token
-    //NUNCA poner información sensible en el token porque se puede decodificar y vulnerar la información
-    const token = jwt.sign({
-        username: username
-    }, process.env.SECRET_KEY || 'lolsito',);
-
-    res.json({token});
-
-}
+};
