@@ -7,7 +7,7 @@ exports.Poke = void 0;
 // ../models/poke.model.ts
 const sequelize_1 = require("sequelize");
 const connection_db_1 = __importDefault(require("../db/connection.db"));
-exports.Poke = connection_db_1.default.define('tb_pokemon', {
+exports.Poke = connection_db_1.default.define('tb_pokemons', {
     id: {
         type: sequelize_1.DataTypes.INTEGER,
         primaryKey: true,

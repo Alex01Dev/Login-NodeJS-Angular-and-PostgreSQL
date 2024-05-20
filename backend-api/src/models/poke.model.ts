@@ -2,7 +2,7 @@
 import { DataTypes } from "sequelize";
 import sequelize from "../db/connection.db";
 
-export const Poke = sequelize.define('tb_pokemon', {
+export const Poke = sequelize.define('tb_pokemons', {
     id: {
         type: DataTypes.INTEGER,
         primaryKey: true,

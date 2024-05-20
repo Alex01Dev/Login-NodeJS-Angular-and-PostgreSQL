@@ -9,8 +9,19 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.createPoke = void 0;
+exports.createPoke = exports.getPokemon = void 0;
 const poke_model_1 = require("../models/poke.model");
+const getPokemon = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+    try {
+        const listPokemon = yield poke_model_1.Poke.findAll();
+        res.json(listPokemon);
+    }
+    catch (error) {
+        console.error("Error al obtener los Pokemones:", error);
+        res.status(500).json({ message: "Error al obtener Pokemon" });
+    }
+});
+exports.getPokemon = getPokemon;
 const createPoke = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     const { name, description, image } = req.body;
     try {
