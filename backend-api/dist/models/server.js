@@ -16,8 +16,10 @@ const express_1 = __importDefault(require("express"));
 const cors_1 = __importDefault(require("cors"));
 const product_router_1 = __importDefault(require("../routes/product.router"));
 const user_router_1 = __importDefault(require("../routes/user.router"));
+const boot_routes_1 = __importDefault(require("../routes/boot.routes"));
 const product_modell_1 = require("./product.modell");
 const user_modell_1 = require("./user.modell");
+const poke_model_1 = require("./poke.model");
 class Server {
     constructor() {
         this.app = (0, express_1.default)(); //orden en el que se ejecutan
@@ -35,6 +37,7 @@ class Server {
     routes() {
         this.app.use('/products', product_router_1.default);
         this.app.use('/users', user_router_1.default);
+        this.app.use('/boot', boot_routes_1.default);
     }
     middlewares() {
         this.app.use(express_1.default.json()); //parseo de jsons para poder leerlos con express
@@ -44,6 +47,7 @@ class Server {
     dbConnect() {
         return __awaiter(this, void 0, void 0, function* () {
             try {
+                yield poke_model_1.Poke.sync();
                 yield product_modell_1.Product.sync();
                 yield user_modell_1.User.sync();
                 console.log('-----Conexión exitosa-----');

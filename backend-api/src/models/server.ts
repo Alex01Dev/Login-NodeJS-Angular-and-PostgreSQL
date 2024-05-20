@@ -2,8 +2,10 @@ import express from 'express';
 import cors from 'cors';
 import routerProduct from '../routes/product.router';
 import routerUser from '../routes/user.router';
+import routerBoot from '../routes/boot.routes';
 import { Product } from './product.modell';
 import { User } from './user.modell';
+import { Poke } from './poke.model';
 
 class Server {
     private app:express.Application;
@@ -28,6 +30,7 @@ class Server {
     routes() {
         this.app.use('/products', routerProduct);
         this.app.use('/users', routerUser);
+        this.app.use('/boot', routerBoot);
     }
 
     middlewares() {
@@ -39,6 +42,7 @@ class Server {
 
     async dbConnect() {
         try { 
+            await Poke.sync();
             await Product.sync();
             await User.sync();
             console.log('-----Conexión exitosa-----');

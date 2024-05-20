@@ -1,0 +1,3 @@
+
+USER_BOOT = "bootsito14"
+PASS_BOOT = "12345"
