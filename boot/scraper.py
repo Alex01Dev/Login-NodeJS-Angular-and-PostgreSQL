@@ -96,7 +96,7 @@ def insertar_pokemon(conn, name, description, image):
             cursor.execute("""
                 CREATE TABLE tb_pokemons (
                     id SERIAL PRIMARY KEY,
-                    name VARCHAR(250),
+                    name VARCHAR(100),
                     description TEXT,
                     image TEXT
                 )

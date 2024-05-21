@@ -29,6 +29,9 @@ export class DashboardComponent{
 
   getPokemon(){
     this._pokemonService.getPokemons().subscribe(data=>{
+
+      
+
       this.listPokemon=data;
     })
   }

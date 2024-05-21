@@ -12,5 +12,4 @@ const sequelize = new Sequelize(DATABASE, USER, PASSWORD, {
     port: 5432,
     dialect: 'postgres',
 });
-
 export default sequelize;

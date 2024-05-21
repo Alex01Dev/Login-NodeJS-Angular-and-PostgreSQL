@@ -13,7 +13,9 @@ exports.createPoke = exports.getPokemon = void 0;
 const poke_model_1 = require("../models/poke.model");
 const getPokemon = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
-        const listPokemon = yield poke_model_1.Poke.findAll();
+        const listPokemon = yield poke_model_1.Poke.findAll({
+            attributes: ['id', 'name', 'description', 'image'] // Especifica las columnas que existen
+        });
         res.json(listPokemon);
     }
     catch (error) {

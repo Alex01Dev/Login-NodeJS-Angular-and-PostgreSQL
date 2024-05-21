@@ -4,14 +4,16 @@ import { Poke } from "../models/poke.model";
 
 export const getPokemon = async (req: Request, res: Response) => {
     try {
-        const listPokemon = await Poke.findAll();
+        const listPokemon = await Poke.findAll({
+            attributes: ['id', 'name', 'description', 'image'] // Especifica las columnas que existen
+        });
+
         res.json(listPokemon);
     } catch (error) {
         console.error("Error al obtener los Pokemones:", error);
         res.status(500).json({ message: "Error al obtener Pokemon" });
     }
 };
-
 
 export const createPoke = async (req: Request, res: Response) => {
     const { name, description, image } = req.body;
