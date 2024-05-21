@@ -6,9 +6,9 @@
   }
   
   table {
-    width: 100%;
     border-collapse: collapse;
-    table-layout: fixed; /* Hace que la tabla tenga un diseño de ancho fijo */
+    /* table-layout: fixed; Hace que la tabla tenga un diseño de ancho fijo */
+    width: 100%;
   }
   
   th, td {
@@ -20,9 +20,15 @@
     text-overflow: ellipsis; /* Añade puntos suspensivos para el texto largo */
   }
   
+td{
+    background-color: #ffffff;
+    text-align: center;
+}
+
   th {
-    background-color: #f2f2f2;
+    background-color: #0167ff;
     font-weight: bold;
+    color: white;
   }
   
   tr:nth-child(even) {
@@ -30,7 +36,7 @@
   }
   
   .pokemon-image {
-    width: 50px;
+    width: 150px;
     height: auto;
   }
   

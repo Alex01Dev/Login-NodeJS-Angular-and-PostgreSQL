@@ -19,12 +19,7 @@ html,body{
     margin-bottom: 10px;
 }
 
-.body{
-    max-width: 300px;
-    width: 100%;
-    text-align: center;
-    border: 2px black;
-}
+
  .mt-3{
     color: #fff;
  }
