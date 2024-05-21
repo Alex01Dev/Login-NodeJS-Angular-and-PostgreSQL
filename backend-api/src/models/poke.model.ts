@@ -1,4 +1,3 @@
-// ../models/poke.model.ts
 import { DataTypes } from "sequelize";
 import sequelize from "../db/connection.db";
 
@@ -19,5 +18,5 @@ export const Poke = sequelize.define('tb_pokemons', {
     image: {
         type: DataTypes.STRING,
         allowNull: false
-    }
+    },   
 });

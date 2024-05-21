@@ -1,0 +1,14 @@
+
+=== Registro de Scraper - 2024-05-21 ===
+
+2024-05-21 16:32:17 - Iniciando descarga de informaci�n para el Pok�mon: Charmander
+2024-05-21 16:32:22 - Error inesperado: 'WebElement' object has no attribute 'getAttribute'
+
+=== Registro de Scraper - 2024-05-21 ===
+2024-05-21 16:34:15 - Iniciando descarga de informaci�n para el Pok�mon: Charmander
+2024-05-21 16:34:18 - Error al enviar datos a la API: 500 - {"message":"Error al crear Pok�mon"}
+
+Abiendo pagina
+extrallendo información
+    Nombnre:
+    Snorlax

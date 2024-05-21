@@ -1,0 +1,37 @@
+2024-05-21 16:57:49,007 - INFO - Fecha y hora actual: 2024-05-21 16:57:49
+2024-05-21 16:57:57,613 - INFO - Iniciando descarga de información para el Pokémon: Charmander
+2024-05-21 16:58:00,038 - INFO - Información descargada: Charmander« VenusaurCharmeleon », Charmander ヒトカゲ (Hitokage) Ilust. 2004 Ilust. 1996 Venusaur ← 0004 → Charmeleon O/P/C Venusaur ← 229 → Charmeleon HG/SS Venusaur ← 234 → Charmeleon Venusaur ← 083 → Charmeleon Arctovish ← 378 → Charmeleon Arándano Venusaur ← 167 → Charmeleon Pronunciación /char.'man.der/1 Dragón 12,5% 0:01 Ver más imágenes de Charmander, https://images.wikidexcdn.net/mwuploads/wikidex/thumb/5/56/latest/20200307023245/Charmander.png/200px-Charmander.png
+2024-05-21 16:58:00,228 - ERROR - Error al enviar datos a la API: 500 - {"message":"Error al crear Pokémon"}
+
+2024-05-21 17:00:36,055 - INFO - Fecha y hora actual: 2024-05-21 17:00:36
+2024-05-21 17:00:47,310 - INFO - Iniciando descarga de información para el Pokémon: Bulbasaur
+2024-05-21 17:00:51,008 - INFO - Información descargada: BulbasaurIvysaur », Bulbasaur フシギダネ (Fushigidane) Ilust. 2004 Ilust. 1996 Ninguno ← 0001 → Ivysaur O/P/C Snorlax ← 226 → Ivysaur HG/SS Snorlax ← 231 → Ivysaur Delcatty ← 080 → Ivysaur Isla de la Armadura Escavalier ← 068 → Ivysaur Arándano Hydrapple ← 164 → Ivysaur Pronunciación /'bul.ba.sur/ (ES) /bul.ba.sa.'ur/ (ES)1 /'bol.ba.sor/ (HA) /'bul.ba.saur/2 Planta 12,5% 0:02 Ver más imágenes de Bulbasaur, https://images.wikidexcdn.net/mwuploads/wikidex/thumb/4/43/latest/20190406170624/Bulbasaur.png/200px-Bulbasaur.png
+2024-05-21 17:00:51,216 - ERROR - Error al enviar datos a la API: 500 - {"message":"Error al crear Pokémon"}
+
+2024-05-21 17:01:54,836 - INFO - Fecha y hora actual: 2024-05-21 17:01:54
+2024-05-21 17:02:01,215 - INFO - Iniciando descarga de información para el Pokémon: Gastly
+2024-05-21 17:02:06,009 - INFO - Información descargada: Gastly« CloysterHaunter », Gastly ゴース (Ghos) Ilust. 2004 Ilust. 1996 Cloyster ← 0092 → Haunter O/P/C Quagsire ← 058 → Haunter HG/SS Quagsire ← 058 → Haunter Sinnoh Lopunny ← 069 → Haunter Carnivine ← 030 → Haunter Alola S/L Crabominable ← 061 → Haunter US/UL Crabominable ← 073 → Haunter Machamp ← 141 → Haunter Hisui Porygon-Z ← 136 → Haunter Hypno ← 068 → Haunter Noroteo Sandslash ← 118 → Haunter Pronunciación /'gas.li/ /'gás.tli/ Grupo de huevo Amorfo 50% 0:00 Ver más imágenes de Gastly, https://images.wikidexcdn.net/mwuploads/wikidex/thumb/c/c1/latest/20230716212132/Gastly.png/200px-Gastly.png
+2024-05-21 17:02:06,071 - ERROR - Error al enviar datos a la API: 500 - {"message":"Error al crear Pokémon"}
+
+2024-05-21 17:04:32,403 - INFO - Fecha y hora actual: 2024-05-21 17:04:32
+2024-05-21 17:04:46,365 - INFO - Iniciando descarga de información para el Pokémon: Togepi
+2024-05-21 17:04:53,402 - INFO - Información descargada: Togepi« IgglybuffTogetic », Togepi トゲピー (Togepi) Ilust. 2004 Ilust. 1999 Igglybuff ← 0175 → Togetic O/P/C Wigglytuff ← 046 → Togetic HG/SS Wigglytuff ← 046 → Togetic Sinnoh Altaria ← 1731 → Togetic Clefable ← 257 → Togetic Hisui Lickilicky ← 127 → Togetic Pronunciación /ˈto.ɣe.pɪ/ /'to.ge.pi/ Dicha Grupo de huevo Desconocido 12,5% 0:01 Ver más imágenes de Togepi, https://images.wikidexcdn.net/mwuploads/wikidex/thumb/f/ff/latest/20201109211603/Togepi.png/200px-Togepi.png
+2024-05-21 17:04:53,474 - ERROR - Error al enviar datos a la API: 500 - {"message":"Error al crear Pokémon"}
+
+2024-05-21 17:12:33,299 - INFO - Fecha y hora actual: 2024-05-21 17:12:33
+2024-05-21 17:12:58,551 - INFO - Iniciando descarga de información para el Pokémon: Charmander
+2024-05-21 17:13:01,455 - INFO - Información descargada: Charmander« VenusaurCharmeleon », Charmander ヒトカゲ (Hitokage) Ilust. 2004 Ilust. 1996 Venusaur ← 0004 → Charmeleon O/P/C Venusaur ← 229 → Charmeleon HG/SS Venusaur ← 234 → Charmeleon Venusaur ← 083 → Charmeleon Arctovish ← 378 → Charmeleon Arándano Venusaur ← 167 → Charmeleon Pronunciación, https://images.wikidexcdn.net/mwuploads/wikidex/thumb/5/56/latest/20200307023245/Charmander.png/200px-Charmander.png
+2024-05-21 17:13:01,630 - INFO - Datos enviados exitosamente a la API: {'name': 'Charmander« VenusaurCharmeleon »', 'description': 'Charmander ヒトカゲ (Hitokage) Ilust. 2004 Ilust. 1996 Venusaur ← 0004 → Charmeleon O/P/C Venusaur ← 229 → Charmeleon HG/SS Venusaur ← 234 → Charmeleon Venusaur ← 083 → Charmeleon Arctovish ← 378 → Charmeleon Arándano Venusaur ← 167 → Charmeleon Pronunciación', 'image': 'https://images.wikidexcdn.net/mwuploads/wikidex/thumb/5/56/latest/20200307023245/Charmander.png/200px-Charmander.png'}
+2024-05-21 17:14:33,291 - INFO - Fecha y hora actual: 2024-05-21 17:14:33
+2024-05-21 17:14:48,928 - INFO - Iniciando descarga de información para el Pokémon: Charmeleon
+2024-05-21 17:14:51,965 - INFO - Información descargada: Charmeleon« CharmanderCharizard », Charmeleon リザード (Lizardo) Ilust. 2004 Ilust. 1996 Charmander ← 0005 → Charizard O/P/C Charmander ← 230 → Charizard HG/SS Charmander ← 235 → Charizard Charmander ← 084 → Charizard Charmander ← 379 → Charizard Arándano Charmander ← 168 → Charizard Pronuncia, https://images.wikidexcdn.net/mwuploads/wikidex/thumb/f/fb/latest/20200411222755/Charmeleon.png/200px-Charmeleon.png
+2024-05-21 17:14:52,023 - INFO - Datos enviados exitosamente a la API: {'name': 'Charmeleon« CharmanderCharizard »', 'description': 'Charmeleon リザード (Lizardo) Ilust. 2004 Ilust. 1996 Charmander ← 0005 → Charizard O/P/C Charmander ← 230 → Charizard HG/SS Charmander ← 235 → Charizard Charmander ← 084 → Charizard Charmander ← 379 → Charizard Arándano Charmander ← 168 → Charizard Pronuncia', 'image': 'https://images.wikidexcdn.net/mwuploads/wikidex/thumb/f/fb/latest/20200411222755/Charmeleon.png/200px-Charmeleon.png'}
+
+2024-05-21 17:21:44,405 - INFO - Fecha y hora actual: 2024-05-21 17:21:44
+2024-05-21 17:21:54,180 - INFO - Entrando a la pagina......
+2024-05-21 17:21:54,180 - INFO - Iniciando descarga de información para el Pokémon: Charizard
+2024-05-21 17:22:01,178 - INFO - Información descargada: Charizard« CharmeleonSquirtle », Charizard リザードン (Lizardon) Ilust. 2004 Ilust. 1996 Charmeleon ← 0006 → Squirtle O/P/C Charmeleon ← 231 → Squirtle HG/SS Charmeleon ← 236 → Squirtle Charmeleon ← 085 → Squirtle Charmeleon ← 380 → Código Cero Arándano Charmeleon ← 169 → Squirtle Pronunciaci, https://images.wikidexcdn.net/mwuploads/wikidex/thumb/9/95/latest/20160817212623/Charizard.png/200px-Charizard.png
+2024-05-21 17:22:01,178 - INFO - Nombre: Charizard« CharmeleonSquirtle »
+2024-05-21 17:22:01,178 - INFO - Descripcion: Charizard リザードン (Lizardon) Ilust. 2004 Ilust. 1996 Charmeleon ← 0006 → Squirtle O/P/C Charmeleon ← 231 → Squirtle HG/SS Charmeleon ← 236 → Squirtle Charmeleon ← 085 → Squirtle Charmeleon ← 380 → Código Cero Arándano Charmeleon ← 169 → Squirtle Pronunciaci
+2024-05-21 17:22:01,178 - INFO - Imagen_URL: https://images.wikidexcdn.net/mwuploads/wikidex/thumb/9/95/latest/20160817212623/Charizard.png/200px-Charizard.png
+2024-05-21 17:22:01,233 - INFO - Datos enviados exitosamente a la API: {'name': 'Charizard« CharmeleonSquirtle »', 'description': 'Charizard リザードン (Lizardon) Ilust. 2004 Ilust. 1996 Charmeleon ← 0006 → Squirtle O/P/C Charmeleon ← 231 → Squirtle HG/SS Charmeleon ← 236 → Squirtle Charmeleon ← 085 → Squirtle Charmeleon ← 380 → Código Cero Arándano Charmeleon ← 169 → Squirtle Pronunciaci', 'image': 'https://images.wikidexcdn.net/mwuploads/wikidex/thumb/9/95/latest/20160817212623/Charizard.png/200px-Charizard.png'}
