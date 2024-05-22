@@ -35,3 +35,101 @@
 2024-05-21 17:22:01,178 - INFO - Descripcion: Charizard リザードン (Lizardon) Ilust. 2004 Ilust. 1996 Charmeleon ← 0006 → Squirtle O/P/C Charmeleon ← 231 → Squirtle HG/SS Charmeleon ← 236 → Squirtle Charmeleon ← 085 → Squirtle Charmeleon ← 380 → Código Cero Arándano Charmeleon ← 169 → Squirtle Pronunciaci
 2024-05-21 17:22:01,178 - INFO - Imagen_URL: https://images.wikidexcdn.net/mwuploads/wikidex/thumb/9/95/latest/20160817212623/Charizard.png/200px-Charizard.png
 2024-05-21 17:22:01,233 - INFO - Datos enviados exitosamente a la API: {'name': 'Charizard« CharmeleonSquirtle »', 'description': 'Charizard リザードン (Lizardon) Ilust. 2004 Ilust. 1996 Charmeleon ← 0006 → Squirtle O/P/C Charmeleon ← 231 → Squirtle HG/SS Charmeleon ← 236 → Squirtle Charmeleon ← 085 → Squirtle Charmeleon ← 380 → Código Cero Arándano Charmeleon ← 169 → Squirtle Pronunciaci', 'image': 'https://images.wikidexcdn.net/mwuploads/wikidex/thumb/9/95/latest/20160817212623/Charizard.png/200px-Charizard.png'}
+
+2024-05-22 11:41:39,187 - INFO - Fecha y hora actual: 2024-05-22 11:41:39
+2024-05-22 11:42:11,083 - INFO - Entrando a la pagina......
+2024-05-22 11:42:11,084 - INFO - Iniciando descarga de información para el Pokémon: Bulbasaur
+2024-05-22 11:42:17,300 - INFO - Información descargada: BulbasaurIvysaur », Bulbasaur フシギダネ (Fushigidane) Ilust. 2004 Ilust. 1996 Ninguno ← 0001 → Ivysaur O/P/C Snorlax ← 226 → Ivysaur HG/SS Snorlax ← 231 → Ivysaur Delcatty ← 080 → Ivysaur Isla de la Armadura Escavalier ← 068 → Ivysaur Arándano Hydrapple ← 164 → Ivysaur Pronuncia, https://images.wikidexcdn.net/mwuploads/wikidex/thumb/4/43/latest/20190406170624/Bulbasaur.png/200px-Bulbasaur.png
+2024-05-22 11:42:17,300 - INFO - Nombre: BulbasaurIvysaur »
+2024-05-22 11:42:17,301 - INFO - Descripcion: Bulbasaur フシギダネ (Fushigidane) Ilust. 2004 Ilust. 1996 Ninguno ← 0001 → Ivysaur O/P/C Snorlax ← 226 → Ivysaur HG/SS Snorlax ← 231 → Ivysaur Delcatty ← 080 → Ivysaur Isla de la Armadura Escavalier ← 068 → Ivysaur Arándano Hydrapple ← 164 → Ivysaur Pronuncia
+2024-05-22 11:42:17,301 - INFO - Imagen_URL: https://images.wikidexcdn.net/mwuploads/wikidex/thumb/4/43/latest/20190406170624/Bulbasaur.png/200px-Bulbasaur.png
+2024-05-22 11:42:20,501 - INFO - Datos enviados exitosamente a la API: {'name': 'BulbasaurIvysaur »', 'description': 'Bulbasaur フシギダネ (Fushigidane) Ilust. 2004 Ilust. 1996 Ninguno ← 0001 → Ivysaur O/P/C Snorlax ← 226 → Ivysaur HG/SS Snorlax ← 231 → Ivysaur Delcatty ← 080 → Ivysaur Isla de la Armadura Escavalier ← 068 → Ivysaur Arándano Hydrapple ← 164 → Ivysaur Pronuncia', 'image': 'https://images.wikidexcdn.net/mwuploads/wikidex/thumb/4/43/latest/20190406170624/Bulbasaur.png/200px-Bulbasaur.png'}
+
+2024-05-22 11:49:38,905 - INFO - Fecha y hora actual: 2024-05-22 11:49:38
+2024-05-22 11:50:03,432 - INFO - Entrando a la pagina......
+2024-05-22 11:50:03,432 - INFO - Iniciando descarga de información para el Pokémon: Ivysaur
+2024-05-22 11:50:07,294 - INFO - Información descargada: Ivysaur« BulbasaurVenusaur », Ivysaur フシギソウ (Fushigisou) Ilust. 2004 Ilust. 1996 Bulbasaur ← 0002 → Venusaur O/P/C Bulbasaur ← 227 → Venusaur HG/SS Bulbasaur ← 232 → Venusaur Bulbasaur ← 081 → Venusaur Isla de la Armadura Bulbasaur ← 069 → Venusaur Arándano Bulbasaur ← 165 → Venusaur , https://images.wikidexcdn.net/mwuploads/wikidex/thumb/8/86/latest/20190406151903/Ivysaur.png/200px-Ivysaur.png
+2024-05-22 11:50:07,294 - INFO - Nombre: Ivysaur« BulbasaurVenusaur »
+2024-05-22 11:50:07,294 - INFO - Descripcion: Ivysaur フシギソウ (Fushigisou) Ilust. 2004 Ilust. 1996 Bulbasaur ← 0002 → Venusaur O/P/C Bulbasaur ← 227 → Venusaur HG/SS Bulbasaur ← 232 → Venusaur Bulbasaur ← 081 → Venusaur Isla de la Armadura Bulbasaur ← 069 → Venusaur Arándano Bulbasaur ← 165 → Venusaur 
+2024-05-22 11:50:07,294 - INFO - Imagen_URL: https://images.wikidexcdn.net/mwuploads/wikidex/thumb/8/86/latest/20190406151903/Ivysaur.png/200px-Ivysaur.png
+2024-05-22 11:50:08,208 - INFO - Datos enviados exitosamente a la API: {'name': 'Ivysaur« BulbasaurVenusaur »', 'description': 'Ivysaur フシギソウ (Fushigisou) Ilust. 2004 Ilust. 1996 Bulbasaur ← 0002 → Venusaur O/P/C Bulbasaur ← 227 → Venusaur HG/SS Bulbasaur ← 232 → Venusaur Bulbasaur ← 081 → Venusaur Isla de la Armadura Bulbasaur ← 069 → Venusaur Arándano Bulbasaur ← 165 → Venusaur ', 'image': 'https://images.wikidexcdn.net/mwuploads/wikidex/thumb/8/86/latest/20190406151903/Ivysaur.png/200px-Ivysaur.png'}
+2024-05-22 11:52:25,892 - INFO - Fecha y hora actual: 2024-05-22 11:52:25
+
+2024-05-22 11:52:55,387 - INFO - Entrando a la pagina......
+2024-05-22 11:52:55,387 - INFO - Iniciando descarga de información para el Pokémon: Venusaur
+2024-05-22 11:52:58,957 - INFO - Información descargada: Venusaur« IvysaurCharmander », Venusaur フシギバナ (Fushigibana) Ilust. 2004 Ilust. 1996 Ivysaur ← 0003 → Charmander O/P/C Ivysaur ← 228 → Charmander HG/SS Ivysaur ← 233 → Charmander Ivysaur ← 082 → Charmander Isla de la Armadura Ivysaur ← 070 → Squirtle Arándano Ivysaur ← 166 → Charmander , https://images.wikidexcdn.net/mwuploads/wikidex/thumb/b/be/latest/20160309230456/Venusaur.png/200px-Venusaur.png
+2024-05-22 11:52:58,957 - INFO - Nombre: Venusaur« IvysaurCharmander »
+2024-05-22 11:52:58,957 - INFO - Descripcion: Venusaur フシギバナ (Fushigibana) Ilust. 2004 Ilust. 1996 Ivysaur ← 0003 → Charmander O/P/C Ivysaur ← 228 → Charmander HG/SS Ivysaur ← 233 → Charmander Ivysaur ← 082 → Charmander Isla de la Armadura Ivysaur ← 070 → Squirtle Arándano Ivysaur ← 166 → Charmander 
+2024-05-22 11:52:58,957 - INFO - Imagen_URL: https://images.wikidexcdn.net/mwuploads/wikidex/thumb/b/be/latest/20160309230456/Venusaur.png/200px-Venusaur.png
+2024-05-22 11:53:00,994 - INFO - Datos enviados exitosamente a la API: {'name': 'Venusaur« IvysaurCharmander »', 'description': 'Venusaur フシギバナ (Fushigibana) Ilust. 2004 Ilust. 1996 Ivysaur ← 0003 → Charmander O/P/C Ivysaur ← 228 → Charmander HG/SS Ivysaur ← 233 → Charmander Ivysaur ← 082 → Charmander Isla de la Armadura Ivysaur ← 070 → Squirtle Arándano Ivysaur ← 166 → Charmander ', 'image': 'https://images.wikidexcdn.net/mwuploads/wikidex/thumb/b/be/latest/20160309230456/Venusaur.png/200px-Venusaur.png'}
+
+2024-05-22 12:02:57,992 - INFO - Fecha y hora actual: 2024-05-22 12:02:57
+2024-05-22 12:03:44,664 - INFO - Entrando a la pagina......
+2024-05-22 12:03:44,665 - INFO - Iniciando descarga de información para el Pokémon: Caterpie
+2024-05-22 12:03:48,543 - INFO - Información descargada: Caterpie« BlastoiseMetapod », Caterpie キャタピー (Caterpie) Ilust. 2004 Ilust. 1996 Blastoise ← 0010 → Metapod O/P/C Raichu ← 024 → Metapod HG/SS Raichu ← 024 → Metapod Vivillon ← 023 → Metapod Alola S/L Raticate ← 017 → Metapod US/UL Raticate ← 017 → Metapod Orbeetle ← 013 → Metapod Pron, https://images.wikidexcdn.net/mwuploads/wikidex/thumb/0/05/latest/20230716211653/Caterpie.png/200px-Caterpie.png
+2024-05-22 12:03:48,543 - INFO - Nombre: Caterpie« BlastoiseMetapod »
+2024-05-22 12:03:48,543 - INFO - Descripcion: Caterpie キャタピー (Caterpie) Ilust. 2004 Ilust. 1996 Blastoise ← 0010 → Metapod O/P/C Raichu ← 024 → Metapod HG/SS Raichu ← 024 → Metapod Vivillon ← 023 → Metapod Alola S/L Raticate ← 017 → Metapod US/UL Raticate ← 017 → Metapod Orbeetle ← 013 → Metapod Pron
+2024-05-22 12:03:48,543 - INFO - Imagen_URL: https://images.wikidexcdn.net/mwuploads/wikidex/thumb/0/05/latest/20230716211653/Caterpie.png/200px-Caterpie.png
+2024-05-22 12:03:53,029 - INFO - Datos enviados exitosamente a la API: {'name': 'Caterpie« BlastoiseMetapod »', 'description': 'Caterpie キャタピー (Caterpie) Ilust. 2004 Ilust. 1996 Blastoise ← 0010 → Metapod O/P/C Raichu ← 024 → Metapod HG/SS Raichu ← 024 → Metapod Vivillon ← 023 → Metapod Alola S/L Raticate ← 017 → Metapod US/UL Raticate ← 017 → Metapod Orbeetle ← 013 → Metapod Pron', 'image': 'https://images.wikidexcdn.net/mwuploads/wikidex/thumb/0/05/latest/20230716211653/Caterpie.png/200px-Caterpie.png'}
+
+2024-05-22 12:11:57,678 - INFO - Fecha y hora actual: 2024-05-22 12:11:57
+2024-05-22 12:14:09,537 - INFO - Entrando a la pagina......
+2024-05-22 12:14:09,538 - INFO - Iniciando descarga de información para el Pokémon: Metapod
+2024-05-22 12:14:16,279 - INFO - Información descargada: Metapod« CaterpieButterfree », Metapod トランセル (Transel) Ilust. 2004 Ilust. 1996 Caterpie ← 0011 → Butterfree O/P/C Caterpie ← 025 → Butterfree HG/SS Caterpie ← 025 → Butterfree Caterpie ← 024 → Butterfree Alola S/L Caterpie ← 018 → Butterfree US/UL Caterpie ← 018 → Butterfree Caterpie ←, https://images.wikidexcdn.net/mwuploads/wikidex/thumb/6/6b/latest/20200307022334/Metapod.png/200px-Metapod.png
+2024-05-22 12:14:16,279 - INFO - Nombre: Metapod« CaterpieButterfree »
+2024-05-22 12:14:16,279 - INFO - Descripcion: Metapod トランセル (Transel) Ilust. 2004 Ilust. 1996 Caterpie ← 0011 → Butterfree O/P/C Caterpie ← 025 → Butterfree HG/SS Caterpie ← 025 → Butterfree Caterpie ← 024 → Butterfree Alola S/L Caterpie ← 018 → Butterfree US/UL Caterpie ← 018 → Butterfree Caterpie ←
+2024-05-22 12:14:16,279 - INFO - Imagen_URL: https://images.wikidexcdn.net/mwuploads/wikidex/thumb/6/6b/latest/20200307022334/Metapod.png/200px-Metapod.png
+2024-05-22 12:14:19,615 - INFO - Datos enviados exitosamente a la API: {'name': 'Metapod« CaterpieButterfree »', 'description': 'Metapod トランセル (Transel) Ilust. 2004 Ilust. 1996 Caterpie ← 0011 → Butterfree O/P/C Caterpie ← 025 → Butterfree HG/SS Caterpie ← 025 → Butterfree Caterpie ← 024 → Butterfree Alola S/L Caterpie ← 018 → Butterfree US/UL Caterpie ← 018 → Butterfree Caterpie ←', 'image': 'https://images.wikidexcdn.net/mwuploads/wikidex/thumb/6/6b/latest/20200307022334/Metapod.png/200px-Metapod.png'}
+
+2024-05-22 12:16:46,905 - INFO - Fecha y hora actual: 2024-05-22 12:16:46
+2024-05-22 12:16:59,269 - INFO - Entrando a la pagina......
+2024-05-22 12:16:59,269 - INFO - Iniciando descarga de información para el Pokémon: Butterfree
+2024-05-22 12:19:01,272 - INFO - Información descargada: Butterfree« MetapodWeedle », Butterfree バタフリー (Butterfree) Ilust. 2004 Ilust. 1996 Metapod ← 0012 → Weedle O/P/C Metapod ← 026 → Weedle HG/SS Metapod ← 026 → Weedle Metapod ← 025 → Weedle Alola S/L Metapod ← 019 → Ledyba US/UL Metapod ← 019 → Ledyba Metapod ← 015 → Grubbin Pronunciac, https://images.wikidexcdn.net/mwuploads/wikidex/d/d1/Butterfree_en_la_primera_generaci%C3%B3n.png
+2024-05-22 12:19:01,272 - INFO - Nombre: Butterfree« MetapodWeedle »
+2024-05-22 12:19:01,272 - INFO - Descripcion: Butterfree バタフリー (Butterfree) Ilust. 2004 Ilust. 1996 Metapod ← 0012 → Weedle O/P/C Metapod ← 026 → Weedle HG/SS Metapod ← 026 → Weedle Metapod ← 025 → Weedle Alola S/L Metapod ← 019 → Ledyba US/UL Metapod ← 019 → Ledyba Metapod ← 015 → Grubbin Pronunciac
+2024-05-22 12:19:01,272 - INFO - Imagen_URL: https://images.wikidexcdn.net/mwuploads/wikidex/d/d1/Butterfree_en_la_primera_generaci%C3%B3n.png
+2024-05-22 12:19:03,455 - INFO - Datos enviados exitosamente a la API: {'name': 'Butterfree« MetapodWeedle »', 'description': 'Butterfree バタフリー (Butterfree) Ilust. 2004 Ilust. 1996 Metapod ← 0012 → Weedle O/P/C Metapod ← 026 → Weedle HG/SS Metapod ← 026 → Weedle Metapod ← 025 → Weedle Alola S/L Metapod ← 019 → Ledyba US/UL Metapod ← 019 → Ledyba Metapod ← 015 → Grubbin Pronunciac', 'image': 'https://images.wikidexcdn.net/mwuploads/wikidex/d/d1/Butterfree_en_la_primera_generaci%C3%B3n.png'}
+
+2024-05-22 12:20:10,004 - INFO - Fecha y hora actual: 2024-05-22 12:20:10
+2024-05-22 12:20:36,522 - INFO - Entrando a la pagina......
+2024-05-22 12:20:36,522 - INFO - Iniciando descarga de información para el Pokémon: Weedle
+2024-05-22 12:20:40,101 - INFO - Información descargada: Weedle« ButterfreeKakuna », Weedle ビードル (Beedle) Ilust. 2004 Ilust. 1996 Butterfree ← 0013 → Kakuna O/P/C Butterfree ← 027 → Kakuna HG/SS Butterfree ← 027 → Kakuna Butterfree ← 026 → Kakuna Pronunciación /'ui.del/1 Grupo de huevo Bicho 50% 0:01 Ver más imágenes de Weedle, https://images.wikidexcdn.net/mwuploads/wikidex/thumb/d/d6/latest/20200307022415/Weedle.png/200px-Weedle.png
+2024-05-22 12:20:40,101 - INFO - Nombre: Weedle« ButterfreeKakuna »
+2024-05-22 12:20:40,102 - INFO - Descripcion: Weedle ビードル (Beedle) Ilust. 2004 Ilust. 1996 Butterfree ← 0013 → Kakuna O/P/C Butterfree ← 027 → Kakuna HG/SS Butterfree ← 027 → Kakuna Butterfree ← 026 → Kakuna Pronunciación /'ui.del/1 Grupo de huevo Bicho 50% 0:01 Ver más imágenes de Weedle
+2024-05-22 12:20:40,102 - INFO - Imagen_URL: https://images.wikidexcdn.net/mwuploads/wikidex/thumb/d/d6/latest/20200307022415/Weedle.png/200px-Weedle.png
+2024-05-22 12:20:42,511 - INFO - Datos enviados exitosamente a la API: {'name': 'Weedle« ButterfreeKakuna »', 'description': "Weedle ビードル (Beedle) Ilust. 2004 Ilust. 1996 Butterfree ← 0013 → Kakuna O/P/C Butterfree ← 027 → Kakuna HG/SS Butterfree ← 027 → Kakuna Butterfree ← 026 → Kakuna Pronunciación /'ui.del/1 Grupo de huevo Bicho 50% 0:01 Ver más imágenes de Weedle", 'image': 'https://images.wikidexcdn.net/mwuploads/wikidex/thumb/d/d6/latest/20200307022415/Weedle.png/200px-Weedle.png'}
+2024-05-22 12:35:28,734 - INFO - Fecha y hora actual: 2024-05-22 12:35:28
+2024-05-22 12:36:04,321 - INFO - Entrando a la pagina......
+2024-05-22 12:36:04,321 - INFO - Iniciando descarga de información para el Pokémon: Kakuna
+2024-05-22 12:36:24,597 - INFO - Información descargada: Kakuna« WeedleBeedrill », Kakuna コクーン (Cocoon) Ilust. 2004 Ilust. 1996 Weedle ← 0014 → Beedrill O/P/C Weedle ← 028 → Beedrill HG/SS Weedle ← 028 → Beedrill Weedle ← 027 → Beedrill Pronunciación /ka.'ku.na/1 Grupo de huevo Bicho 50% 0:01 Ver más imágenes de Kakuna, https://images.wikidexcdn.net/mwuploads/wikidex/thumb/6/63/latest/20200307022526/Kakuna.png/200px-Kakuna.png
+2024-05-22 12:36:24,597 - INFO - Nombre: Kakuna« WeedleBeedrill »
+2024-05-22 12:36:24,597 - INFO - Descripcion: Kakuna コクーン (Cocoon) Ilust. 2004 Ilust. 1996 Weedle ← 0014 → Beedrill O/P/C Weedle ← 028 → Beedrill HG/SS Weedle ← 028 → Beedrill Weedle ← 027 → Beedrill Pronunciación /ka.'ku.na/1 Grupo de huevo Bicho 50% 0:01 Ver más imágenes de Kakuna
+2024-05-22 12:36:24,597 - INFO - Imagen_URL: https://images.wikidexcdn.net/mwuploads/wikidex/thumb/6/63/latest/20200307022526/Kakuna.png/200px-Kakuna.png
+2024-05-22 12:36:29,286 - INFO - Datos enviados exitosamente a la API: {'name': 'Kakuna« WeedleBeedrill »', 'description': "Kakuna コクーン (Cocoon) Ilust. 2004 Ilust. 1996 Weedle ← 0014 → Beedrill O/P/C Weedle ← 028 → Beedrill HG/SS Weedle ← 028 → Beedrill Weedle ← 027 → Beedrill Pronunciación /ka.'ku.na/1 Grupo de huevo Bicho 50% 0:01 Ver más imágenes de Kakuna", 'image': 'https://images.wikidexcdn.net/mwuploads/wikidex/thumb/6/63/latest/20200307022526/Kakuna.png/200px-Kakuna.png'}
+2024-05-22 12:39:35,310 - INFO - Fecha y hora actual: 2024-05-22 12:39:35
+2024-05-22 12:42:01,638 - INFO - Fecha y hora actual: 2024-05-22 12:42:01
+2024-05-22 12:42:28,237 - INFO - Entrando a la pagina......
+2024-05-22 12:42:28,237 - INFO - Iniciando descarga de información para el Pokémon: Beedrill
+2024-05-22 12:42:38,030 - INFO - Información descargada: Beedrill« KakunaPidgey », Beedrill スピアー (Spear) Ilust. 2004 Ilust. 1996 Kakuna ← 0015 → Pidgey O/P/C Kakuna ← 029 → Ledyba HG/SS Kakuna ← 029 → Ledyba Kakuna ← 028 → Pansage Pronunciación /'bi.dril/1 Grupo de huevo Bicho 50% 0:02 Ver más imágenes de Beedrill, https://images.wikidexcdn.net/mwuploads/wikidex/thumb/0/0d/latest/20200307022638/Beedrill.png/200px-Beedrill.png
+2024-05-22 12:42:38,031 - INFO - Nombre: Beedrill« KakunaPidgey »
+2024-05-22 12:42:38,031 - INFO - Descripcion: Beedrill スピアー (Spear) Ilust. 2004 Ilust. 1996 Kakuna ← 0015 → Pidgey O/P/C Kakuna ← 029 → Ledyba HG/SS Kakuna ← 029 → Ledyba Kakuna ← 028 → Pansage Pronunciación /'bi.dril/1 Grupo de huevo Bicho 50% 0:02 Ver más imágenes de Beedrill
+2024-05-22 12:42:38,031 - INFO - Imagen_URL: https://images.wikidexcdn.net/mwuploads/wikidex/thumb/0/0d/latest/20200307022638/Beedrill.png/200px-Beedrill.png
+2024-05-22 12:42:40,345 - ERROR - Error al enviar datos a la API: ('Connection aborted.', ConnectionResetError(10054, 'Se ha forzado la interrupción de una conexión existente por el host remoto', None, 10054, None))
+
+2024-05-22 12:44:42,350 - INFO - Fecha y hora actual: 2024-05-22 12:44:42
+2024-05-22 12:48:34,173 - INFO - Fecha y hora actual: 2024-05-22 12:48:34
+2024-05-22 12:49:48,224 - INFO - Entrando a la pagina......
+2024-05-22 12:49:48,224 - INFO - Iniciando descarga de información para el Pokémon: Beedrill
+2024-05-22 12:50:01,303 - INFO - Información descargada: Beedrill« KakunaPidgey », Beedrill スピアー (Spear) Ilust. 2004 Ilust. 1996 Kakuna ← 0015 → Pidgey O/P/C Kakuna ← 029 → Ledyba HG/SS Kakuna ← 029 → Ledyba Kakuna ← 028 → Pansage Pronunciación /'bi.dril/1 Grupo de huevo Bicho 50% 0:02 Ver más imágenes de Beedrill, https://images.wikidexcdn.net/mwuploads/wikidex/thumb/0/0d/latest/20200307022638/Beedrill.png/200px-Beedrill.png
+2024-05-22 12:50:01,304 - INFO - Nombre: Beedrill« KakunaPidgey »
+2024-05-22 12:50:01,304 - INFO - Descripcion: Beedrill スピアー (Spear) Ilust. 2004 Ilust. 1996 Kakuna ← 0015 → Pidgey O/P/C Kakuna ← 029 → Ledyba HG/SS Kakuna ← 029 → Ledyba Kakuna ← 028 → Pansage Pronunciación /'bi.dril/1 Grupo de huevo Bicho 50% 0:02 Ver más imágenes de Beedrill
+2024-05-22 12:50:01,304 - INFO - Imagen_URL: https://images.wikidexcdn.net/mwuploads/wikidex/thumb/0/0d/latest/20200307022638/Beedrill.png/200px-Beedrill.png
+2024-05-22 12:50:04,201 - ERROR - Error al enviar datos a la API: 400 - {"message":"El Pokémon ya existe"}
+2024-05-22 12:51:08,870 - INFO - Fecha y hora actual: 2024-05-22 12:51:08
+2024-05-22 12:53:27,148 - INFO - Entrando a la pagina......
+2024-05-22 12:53:27,148 - INFO - Iniciando descarga de información para el Pokémon: Pidgey
+2024-05-22 12:53:41,103 - INFO - Información descargada: Pidgey« BeedrillPidgeotto », Pidgey ポッポ (Poppo) Ilust. 2004 Ilust. 1996 Beedrill ← 0016 → Pidgeotto O/P/C Feraligatr ← 010 → Pidgeotto HG/SS Feraligatr ← 010 → Pidgeotto Talonflame ← 017 → Pidgeotto Pronunciación /'pid.yi/1 Tumbos2 Grupo de huevo Volador 50% 0:01 Ver más imágenes de , https://images.wikidexcdn.net/mwuploads/wikidex/thumb/b/b7/latest/20200307022723/Pidgey.png/200px-Pidgey.png
+2024-05-22 12:53:41,103 - INFO - Nombre: Pidgey« BeedrillPidgeotto »
+2024-05-22 12:53:41,103 - INFO - Descripcion: Pidgey ポッポ (Poppo) Ilust. 2004 Ilust. 1996 Beedrill ← 0016 → Pidgeotto O/P/C Feraligatr ← 010 → Pidgeotto HG/SS Feraligatr ← 010 → Pidgeotto Talonflame ← 017 → Pidgeotto Pronunciación /'pid.yi/1 Tumbos2 Grupo de huevo Volador 50% 0:01 Ver más imágenes de 
+2024-05-22 12:53:41,103 - INFO - Imagen_URL: https://images.wikidexcdn.net/mwuploads/wikidex/thumb/b/b7/latest/20200307022723/Pidgey.png/200px-Pidgey.png
+2024-05-22 12:53:53,193 - INFO - Datos enviados exitosamente a la API: {'name': 'Pidgey« BeedrillPidgeotto »', 'description': "Pidgey ポッポ (Poppo) Ilust. 2004 Ilust. 1996 Beedrill ← 0016 → Pidgeotto O/P/C Feraligatr ← 010 → Pidgeotto HG/SS Feraligatr ← 010 → Pidgeotto Talonflame ← 017 → Pidgeotto Pronunciación /'pid.yi/1 Tumbos2 Grupo de huevo Volador 50% 0:01 Ver más imágenes de ", 'image': 'https://images.wikidexcdn.net/mwuploads/wikidex/thumb/b/b7/latest/20200307022723/Pidgey.png/200px-Pidgey.png'}

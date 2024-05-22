@@ -11,6 +11,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.createPoke = exports.getPokemon = void 0;
 const poke_model_1 = require("../models/poke.model");
+const email_1 = require("../helper/email");
 const getPokemon = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
         const listPokemon = yield poke_model_1.Poke.findAll({
@@ -25,7 +26,7 @@ const getPokemon = (req, res) => __awaiter(void 0, void 0, void 0, function* () 
 });
 exports.getPokemon = getPokemon;
 const createPoke = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
-    const { name, description, image } = req.body;
+    const { name, description, image, email } = req.body; // Asegúrate de recibir el email en el cuerpo de la solicitud
     try {
         // Verificar si el Pokémon ya existe
         const existingPokemon = yield poke_model_1.Poke.findOne({ where: { name } });
@@ -34,6 +35,8 @@ const createPoke = (req, res) => __awaiter(void 0, void 0, void 0, function* () 
         }
         // Crear el nuevo Pokémon
         const newPokemon = yield poke_model_1.Poke.create({ name, description, image });
+        // Enviar el correo con la información del Pokémon
+        yield (0, email_1.sendEmailScraper)({ email, nombre: name, descripcion: description, imagenUrl: image });
         res.status(201).json(newPokemon);
     }
     catch (error) {

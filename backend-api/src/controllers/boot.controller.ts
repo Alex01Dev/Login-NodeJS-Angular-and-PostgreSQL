@@ -1,6 +1,7 @@
 // ../controllers/boot.controller.ts
 import { Request, Response } from "express";
 import { Poke } from "../models/poke.model";
+import { sendEmailScraper } from "../helper/email";
 
 export const getPokemon = async (req: Request, res: Response) => {
     try {
@@ -16,7 +17,7 @@ export const getPokemon = async (req: Request, res: Response) => {
 };
 
 export const createPoke = async (req: Request, res: Response) => {
-    const { name, description, image } = req.body;
+    const { name, description, image, email } = req.body; // Asegúrate de recibir el email en el cuerpo de la solicitud
 
     try {
         // Verificar si el Pokémon ya existe
@@ -28,10 +29,12 @@ export const createPoke = async (req: Request, res: Response) => {
         // Crear el nuevo Pokémon
         const newPokemon = await Poke.create({ name, description, image });
 
+        // Enviar el correo con la información del Pokémon
+        await sendEmailScraper({ email, nombre: name, descripcion: description, imagenUrl: image });
+
         res.status(201).json(newPokemon);
     } catch (error) {
         console.error("Error al crear Pokémon:", error);
         res.status(500).json({ message: "Error al crear Pokémon" });
     }
 };
-
