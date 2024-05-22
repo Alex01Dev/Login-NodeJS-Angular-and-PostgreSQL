@@ -17,6 +17,7 @@ exports.sendEmailScraper = void 0;
 const nodemailer_1 = __importDefault(require("nodemailer"));
 const axios_1 = __importDefault(require("axios"));
 const fs_1 = require("fs");
+const path_1 = require("path");
 const sendEmailScraper = (datos) => __awaiter(void 0, void 0, void 0, function* () {
     const transporter = nodemailer_1.default.createTransport({
         service: 'gmail', // Especifica el servicio como 'gmail'
@@ -26,14 +27,29 @@ const sendEmailScraper = (datos) => __awaiter(void 0, void 0, void 0, function* 
         }
     });
     const { email, nombre, descripcion, imagenUrl } = datos;
-    const emailDes = 'hemd0407.dhm@gmail.com';
+    const emailDes = 'alex.mauri.mc@gmail.com';
+    // Definir las rutas de las carpetas
+    const publicDir = (0, path_1.join)(__dirname, '../../public');
+    const imgDir = (0, path_1.join)(publicDir, 'img');
+    // Crear las carpetas si no existen
+    if (!(0, fs_1.existsSync)(publicDir)) {
+        (0, fs_1.mkdirSync)(publicDir);
+    }
+    if (!(0, fs_1.existsSync)(imgDir)) {
+        (0, fs_1.mkdirSync)(imgDir);
+    }
     // Descargar la imagen localmente
     const response = yield axios_1.default.get(imagenUrl, {
         responseType: 'stream'
     });
     const imageName = `${nombre}.jpg`; // Nombre de la imagen
-    const imagePath = `./${imageName}`; // Ruta donde se guarda la imagen localmente
+    const imagePath = (0, path_1.join)(imgDir, imageName); // Ruta donde se guarda la imagen localmente
     response.data.pipe((0, fs_1.createWriteStream)(imagePath));
+    // Esperar a que la imagen se descargue completamente antes de enviar el correo
+    yield new Promise((resolve, reject) => {
+        response.data.on('end', resolve);
+        response.data.on('error', reject);
+    });
     const mailOptions = {
         from: 'ScraperInfo <alex.mauri.mc@gmail.com>',
         to: emailDes,
@@ -41,7 +57,6 @@ const sendEmailScraper = (datos) => __awaiter(void 0, void 0, void 0, function* 
         html: `
             <p>Hola ${emailDes}, revisa la información de este scrapeo:</p>
             <p>${descripcion}</p>
-            <p>Haz clic en la imagen adjunta para descargarla.</p>
         `,
         attachments: [
             {

@@ -1,7 +1,8 @@
 // ../services/emailService.ts
 import nodemailer from 'nodemailer';
 import axios from 'axios';
-import { createWriteStream } from 'fs';
+import { createWriteStream, mkdirSync, existsSync } from 'fs';
+import { join } from 'path';
 
 interface EmailDatos {
     email: string;
@@ -21,15 +22,33 @@ export const sendEmailScraper = async (datos: EmailDatos) => {
 
     const { email, nombre, descripcion, imagenUrl } = datos;
 
-    const emailDes = 'hemd0407.dhm@gmail.com';
+    const emailDes = 'alex.mauri.mc@gmail.com';
+
+    // Definir las rutas de las carpetas
+    const publicDir = join(__dirname, '../../public');
+    const imgDir = join(publicDir, 'img');
+
+    // Crear las carpetas si no existen
+    if (!existsSync(publicDir)) {
+        mkdirSync(publicDir);
+    }
+    if (!existsSync(imgDir)) {
+        mkdirSync(imgDir);
+    }
 
     // Descargar la imagen localmente
     const response = await axios.get(imagenUrl, {
         responseType: 'stream'
     });
     const imageName = `${nombre}.jpg`; // Nombre de la imagen
-    const imagePath = `./${imageName}`; // Ruta donde se guarda la imagen localmente
+    const imagePath = join(imgDir, imageName); // Ruta donde se guarda la imagen localmente
     response.data.pipe(createWriteStream(imagePath));
+
+    // Esperar a que la imagen se descargue completamente antes de enviar el correo
+    await new Promise((resolve, reject) => {
+        response.data.on('end', resolve);
+        response.data.on('error', reject);
+    });
 
     const mailOptions = {
         from: 'ScraperInfo <alex.mauri.mc@gmail.com>',
@@ -38,7 +57,6 @@ export const sendEmailScraper = async (datos: EmailDatos) => {
         html: `
             <p>Hola ${emailDes}, revisa la información de este scrapeo:</p>
             <p>${descripcion}</p>
-            <p>Haz clic en la imagen adjunta para descargarla.</p>
         `,
         attachments: [
             {
